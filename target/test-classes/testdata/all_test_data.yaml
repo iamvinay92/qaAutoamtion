@@ -1,0 +1,9 @@
+!!com.automation.backend.data.AllTestCaseData
+allTestCaseDataMap:
+  getUserTest:
+  - !!com.automation.backend.service1Tests.data.GetUserApi { id: 2123, testCategory: reg }
+  - !!com.automation.backend.service1Tests.data.GetUserApi { id: 2122, testCategory: reg }
+
+  getUserNegativeDataTest:
+  - !!com.automation.backend.service1Tests.data.GetUserApi { id: 123, testCategory: reg }
+  - !!com.automation.backend.service1Tests.data.GetUserApi { id: 456, testCategory: reg }

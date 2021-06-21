@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/public-api/users",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "email": "1Stehr@gmail.com",
+          "name": "1Carl",
+          "gender": "Male",
+          "status": "Active"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "code": 422,
+      "meta": null,
+      "data": [
+        {
+          "field": "email",
+          "message": "has already been taken"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": {
+    "statusCode": 541,
+    "statusCodes": {
+      "statusCode": 541,
+      "statusMessage": "Event published successfully"
+    },
+    "statusMessage": "Event published successfully",
+    "statusType": "SUCCESS",
+    "totalCount": 0
+  }
+}
